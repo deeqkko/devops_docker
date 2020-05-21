@@ -11,3 +11,6 @@ Exercise 1.6 Dockerfile and used commands
 
 * Folder Ex-1.7
 Exercise 1.7 Dockerfile, script and used commands
+
+* Folder Ex-1.8
+Exercise 1.8 log output file and used commands
