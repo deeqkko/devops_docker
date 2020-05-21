@@ -1,4 +1,4 @@
-#Dockerfile Exercise 1.10
+#Dockerfile Exercise 1.12 Frontend
 FROM ubuntu:16.04
 
 EXPOSE 5000
