@@ -17,3 +17,9 @@ Exercise 1.8 log output file and used commands
 
 * Folder Ex-1.9
 Exercise 1.9 used commands
+
+* Folder Ex-1.10
+Exercise 1.10 Dockerfile
+
+* Folder Ex-1.11
+Exercise 1.10 Dockerfile, log outpt file and used commands
