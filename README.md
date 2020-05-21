@@ -28,4 +28,7 @@ Exercise 1.11 Dockerfile, log outpt file and used commands
 Exercise 1.12 Dockerfiles and used commands. ENV-directives added in 1.10 and 1.11 Dockerfiles
 
 * Folder Ex-1.13
-Exercise 1.13 Submission was not defined. Returning Dockerfile
+Exercise 1.13. Submission was not defined. Returning Dockerfile. Click'n'success
+
+* Folder Ex-1.14
+Exercise 1.14. Dockerfile. Development version was used. Pressing and pressing...
