@@ -37,4 +37,7 @@ Exercise 1.14. Dockerfile. Development version was used. Pressing and pressing..
 _<TODO>_
 
 * Folder Ex-1.16
-Readme-file with a link to heroku-app
+Readme file with a link to heroku-app
+
+* Folder Ex-1.17
+Readme and Dockerfile for Ex 1.17. Created a python3-cli container based on alpine image. 
