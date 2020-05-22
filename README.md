@@ -32,3 +32,9 @@ Exercise 1.13. Submission was not defined. Returning Dockerfile. Click'n'success
 
 * Folder Ex-1.14
 Exercise 1.14. Dockerfile. Development version was used. Pressing and pressing...
+
+* Folder Ex-1.15
+_<TODO>_
+
+* Folder Ex-1.16
+Readme-file with a link to heroku-app
