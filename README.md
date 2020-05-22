@@ -34,10 +34,10 @@ Exercise 1.13. Submission was not defined. Returning Dockerfile. Click'n'success
 Exercise 1.14. Dockerfile. Development version was used. Pressing and pressing...
 
 * Folder Ex-1.15
-_<TODO>_
+Exercise 1.15 Dockerfile, readme and some resource files. Crank up the base!
 
 * Folder Ex-1.16
 Readme file with a link to heroku-app
 
 * Folder Ex-1.17
-Readme and Dockerfile for Ex 1.17. Created a python3-cli container based on alpine image. 
+Readme and Dockerfile for Ex 1.17. Created a python3-cli container based on alpine image.
