@@ -41,3 +41,8 @@ Readme file with a link to heroku-app
 
 * Folder Ex-1.17
 Readme and Dockerfile for Ex 1.17. Created a python3-cli container based on alpine image.
+
+### Exercise submissions Part 2
+
+* Folder Ex-2.1
+Docker-compose file and logs.txt
