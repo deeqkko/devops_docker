@@ -46,3 +46,9 @@ Readme and Dockerfile for Ex 1.17. Created a python3-cli container based on alpi
 
 * Folder Ex-2.1
 Docker-compose file and logs.txt
+
+* Folder Ex-2.2
+Docker-compose file
+
+* Folder Ex-2.3
+Docker-compose file and new backend log file
