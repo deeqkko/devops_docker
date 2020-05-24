@@ -19,7 +19,7 @@ Exercise 1.8 log output file and used commands
 Exercise 1.9 used commands
 
 * Folder Ex-1.10
-Exercise 1.10 Dockerfile.
+Exercise 1.10 Dockerfile. logs.
 
 * Folder Ex-1.11
 Exercise 1.11 Dockerfile, log outpt file and used commands
@@ -51,7 +51,10 @@ Docker-compose file and logs.txt
 Docker-compose file
 
 * Folder Ex-2.3
-Docker-compose file and new backend log file
+Docker-compose file and new backend log file. logs.txt **must be created** before docker-compose up
 
 * Folder Ex-2.4
-Command to run the containers 
+Command to run the containers
+
+* Folder Ex-2.5
+Docker compose file and log file. logs.txt **must be created** before docker-compose up
