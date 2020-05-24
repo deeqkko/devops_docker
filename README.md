@@ -52,3 +52,6 @@ Docker-compose file
 
 * Folder Ex-2.3
 Docker-compose file and new backend log file
+
+* Folder Ex-2.4
+Command to run the containers 
