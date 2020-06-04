@@ -1,0 +1,42 @@
+version: '3.5'
+
+services:
+  frontend1.10:
+    image: frontend1.10
+    build:
+      context: ~/github/devops_docker/Part1/Ex-1.10/
+    ports:
+      - 5000:5000
+    container_name: frontend1.10
+    depends_on:
+      - backend1.11
+
+  backend1.11:
+    image: backend1.11
+    build:
+      context: ~/github/devops_docker/Part1/Ex-1.11/
+    volumes:
+      - ./logs.txt:/usr/src/backend-example-docker/logs.txt
+    ports:
+      - 8000:8000
+    container_name: backend1.11
+    environment:
+      - REDIS=redis
+      - DB_USERNAME=messages
+      - DB_PASSWORD=exercise26
+      - DB_HOST=postgres_db
+    restart: unless-stopped
+    depends_on:
+      - postgres_db
+
+  redis:
+    image: redis
+    container_name: redis
+
+  postgres_db:
+    image: postgres
+    restart: unless-stopped
+    container_name: postgres_db
+    environment:
+      - POSTGRES_USER=messages
+      - POSTGRES_PASSWORD=exercise26

@@ -58,3 +58,6 @@ Command to run the containers
 
 * Folder Ex-2.5
 Docker compose file and log file. logs.txt **must be created** before docker-compose up
+
+* Folder Ex-2.6
+Docker compose file and log file. logs.txt **must be created** before docker-compose up
