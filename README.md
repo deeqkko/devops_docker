@@ -61,3 +61,9 @@ Docker compose file and log file. logs.txt **must be created** before docker-com
 
 * Folder Ex-2.6
 Docker compose file and log file. logs.txt **must be created** before docker-compose up
+
+* Folder Ex-2.7
+Docker compose file
+
+* Folder Ex-2.8
+Docker compose file, nginx.conf and logs.txt. Same goes for this as in Ex-2.6 regarding the log file.
