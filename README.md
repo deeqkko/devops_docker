@@ -67,3 +67,6 @@ Docker compose file
 
 * Folder Ex-2.8
 Docker compose file, nginx.conf and logs.txt. Same goes for this as in Ex-2.6 regarding the log file.
+
+* Folder Ex-2.9
+Docker compose file and logs.txt. Same old same old...
