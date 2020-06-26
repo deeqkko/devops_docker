@@ -1,0 +1,37 @@
+IMAGE               CREATED             CREATED BY                                      SIZE                COMMENT
+ca839ceff638        7 minutes ago       /bin/sh -c #(nop)  CMD ["start"]                0B
+c7e13e47671b        7 minutes ago       /bin/sh -c #(nop)  ENTRYPOINT ["/usr/bin/npm…   0B
+af5b3c6df465        7 minutes ago       /bin/sh -c #(nop)  ENV API_URL=http://localh…   0B
+77825b284fcb        7 minutes ago       /bin/sh -c npm install                          212MB
+41610963ee2e        8 minutes ago       /bin/sh -c #(nop) WORKDIR /usr/src/frontend-…   0B
+f2f42cbde6bd        8 minutes ago       /bin/sh -c #(nop) COPY dir:ddf768254ee432c3a…   852kB
+9a35f49f3dfb        8 minutes ago       /bin/sh -c mkdir /usr/src/frontend-example-d…   0B
+be6f69d79d5a        8 minutes ago       /bin/sh -c apt-get install -y nodejs            114MB
+d78d97fa310b        8 minutes ago       /bin/sh -c curl -sL https://deb.nodesource.c…   33.6MB
+5c4566077a58        8 minutes ago       /bin/sh -c apt-get update && apt-get install…   48.8MB
+bf79a536f4ea        9 minutes ago       /bin/sh -c #(nop)  EXPOSE 5000                  0B
+005d2078bdfa        7 weeks ago         /bin/sh -c #(nop)  CMD ["/bin/bash"]            0B
+<missing>           7 weeks ago         /bin/sh -c mkdir -p /run/systemd && echo 'do…   7B
+<missing>           7 weeks ago         /bin/sh -c set -xe   && echo '#!/bin/sh' > /…   745B
+<missing>           7 weeks ago         /bin/sh -c rm -rf /var/lib/apt/lists/*          0B
+<missing>           7 weeks ago         /bin/sh -c #(nop) ADD file:4fe14d9555e739e4d…   125MB
+----------------------------------------------------------------------------------------------
+Total ~ 533 MB
+
+
+IMAGE               CREATED             CREATED BY                                      SIZE                COMMENT
+7f89242e9dfc        13 minutes ago      /bin/sh -c #(nop)  CMD ["start"]                0B
+1e50da1e2962        13 minutes ago      /bin/sh -c #(nop)  ENTRYPOINT ["/usr/bin/npm…   0B
+1065ccf56ce4        13 minutes ago      /bin/sh -c #(nop)  ENV API_URL=http://localh…   0B
+d4daa0393e47        13 minutes ago      /bin/sh -c npm install                          212MB
+a2ac1a861f8f        14 minutes ago      /bin/sh -c #(nop) WORKDIR /usr/src/frontend-…   0B
+077c4b392299        14 minutes ago      /bin/sh -c #(nop) COPY dir:ddf768254ee432c3a…   852kB
+e09d9e9ce4a0        14 minutes ago      /bin/sh -c mkdir /usr/src/frontend-example-d…   167MB
+021ee79d5068        15 minutes ago      /bin/sh -c #(nop)  EXPOSE 5000                  0B
+005d2078bdfa        7 weeks ago         /bin/sh -c #(nop)  CMD ["/bin/bash"]            0B
+<missing>           7 weeks ago         /bin/sh -c mkdir -p /run/systemd && echo 'do…   7B
+<missing>           7 weeks ago         /bin/sh -c set -xe   && echo '#!/bin/sh' > /…   745B
+<missing>           7 weeks ago         /bin/sh -c rm -rf /var/lib/apt/lists/*          0B
+<missing>           7 weeks ago         /bin/sh -c #(nop) ADD file:4fe14d9555e739e4d…   125MB
+---------------------------------------------------------------------------------------------
+Total ~  504MB
