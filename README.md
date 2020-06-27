@@ -73,3 +73,8 @@ Docker compose file and logs.txt. Same old same old...
 
 * Folder Ex-2.10
 Docker compose file, both frontend and backend Dockerfiles and nginx.conf. Tricky exercise. Please remember logs.txt
+
+### Exercise submissions Part 3
+
+* Folder Ex-3.1
+Dockerfiles and history files for front- and backend

@@ -8,10 +8,14 @@ RUN mkdir /usr/src/frontend-example-docker && \
     curl -L https://deb.nodesource.com/setup_12.x | bash - && \
     apt-get install -y nodejs && \
     apt-get purge -y --auto-remove curl apt-utils && \
-    rm -rf /var/lib/apt/lists/* \
-COPY /frontend-example-docker /usr/src/frontend-example-docker
+    rm -rf /var/lib/apt/lists/* && \
+    useradd -m frontend
+COPY ./frontend-example-docker /usr/src/frontend-example-docker
 WORKDIR /usr/src/frontend-example-docker
-RUN npm install 
+RUN npm install && \
+    chown -R frontend:frontend /usr/src/frontend-example-docker
+
+USER frontend
 
 # Exercise 1.12 backend url
 ENV API_URL=http://localhost:8000
