@@ -78,3 +78,6 @@ Docker compose file, both frontend and backend Dockerfiles and nginx.conf. Trick
 
 * Folder Ex-3.1
 Dockerfiles and history files for front- and backend
+
+* Folder Ex-3.4
+Dockerfiles for frontend and backend with a non-root user
