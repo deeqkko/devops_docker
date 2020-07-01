@@ -79,6 +79,9 @@ Docker compose file, both frontend and backend Dockerfiles and nginx.conf. Trick
 * Folder Ex-3.1
 Dockerfiles and history files for front- and backend
 
+* Folder Ex-3.2
+CircleCI config.yml and Ex-3.2.md for links and a small walkthrough
+
 * Folder Ex-3.3
 Builder container scripts and Dockerfile
 
