@@ -1,0 +1,19 @@
+version: 2.1
+
+orbs:
+  heroku: circleci/heroku@0.0.10
+
+workflows:
+  heroku_deploy:
+    jobs:
+      - build-hello
+      - heroku/deploy-via-git:
+          requires:
+            - build-hello
+
+jobs:
+  build-hello:
+    docker:
+      - image: heroku/nodejs
+    steps:
+      - checkout
