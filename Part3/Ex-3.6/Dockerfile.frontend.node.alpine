@@ -1,0 +1,18 @@
+FROM node:12-alpine as build-stage
+
+COPY ./frontend-example-docker /home/node/app
+WORKDIR /home/node/app
+RUN npm install && npm run build
+
+FROM node:12-alpine
+
+EXPOSE 5000
+
+ENV API_URL=http://localhost:8000
+
+RUN mkdir -p /home/node/app/dist && npm install -g serve
+WORKDIR /home/node/app/dist
+COPY --from=build-stage /home/node/app/dist .
+
+CMD ["serve","-s","-l","5000"]
+    

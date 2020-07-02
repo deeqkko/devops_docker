@@ -9,10 +9,11 @@ RUN apt-get install -y nodejs
 RUN mkdir /usr/src/frontend-example-docker
 COPY /frontend-example-docker /usr/src/frontend-example-docker
 WORKDIR /usr/src/frontend-example-docker
-RUN npm install
+RUN npm install && npm run build
 
 # Exercise 1.12 backend url
 ENV API_URL=http://localhost:8000
 
-ENTRYPOINT ["/usr/bin/npm"]
-CMD ["start"]
+#ENTRYPOINT ["/usr/bin/npm"]
+#CMD ["start"]
+CMD ["bash"]

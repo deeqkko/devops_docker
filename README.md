@@ -90,3 +90,6 @@ Dockerfiles for frontend and backend with a non-root user
 
 * Folder Ex-3.5
 Dockerfiles before and after. History output from containers backend and frontend. Docker-compose.yml is there just for convenience
+
+* Folder Ex-3.6
+Dockerfile for multi-stage build of frontend
