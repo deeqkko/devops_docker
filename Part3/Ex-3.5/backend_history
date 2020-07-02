@@ -1,0 +1,37 @@
+IMAGE               CREATED             CREATED BY                                      SIZE                COMMENT
+191941f01e4e        41 minutes ago      /bin/sh -c #(nop)  CMD ["start"]                0B                  
+16e8984849ca        41 minutes ago      /bin/sh -c #(nop)  ENTRYPOINT ["/usr/bin/npm…   0B                  
+08d60f918f2b        41 minutes ago      /bin/sh -c #(nop)  ENV FRONT_URL=http://loca…   0B                  
+59ffa5fc9341        41 minutes ago      /bin/sh -c #(nop)  USER backend                 0B                  
+a46dda30bcc3        41 minutes ago      /bin/sh -c npm install &&     chown -R backe…   33MB                
+6403b552e1cf        41 minutes ago      /bin/sh -c #(nop) WORKDIR /usr/src/backend-e…   0B                  
+7b917c099807        41 minutes ago      /bin/sh -c #(nop) COPY dir:8252aa407566de9d3…   536kB               
+2ac5483887f4        41 minutes ago      /bin/sh -c mkdir /usr/src/backend-example-do…   161MB               
+b0f3ecf890d1        42 minutes ago      /bin/sh -c #(nop)  EXPOSE 8000                  0B                  
+330ae480cb85        10 days ago         /bin/sh -c #(nop)  CMD ["/bin/bash"]            0B                  
+<missing>           10 days ago         /bin/sh -c mkdir -p /run/systemd && echo 'do…   7B                  
+<missing>           10 days ago         /bin/sh -c set -xe   && echo '#!/bin/sh' > /…   745B                
+<missing>           10 days ago         /bin/sh -c rm -rf /var/lib/apt/lists/*          0B                  
+<missing>           10 days ago         /bin/sh -c #(nop) ADD file:52af30f80ba214985…   125MB
+
+Size with ubuntu:16.04 -> 320MB
+---------------------------------------------------------------------------------------------
+IMAGE               CREATED             CREATED BY                                      SIZE                COMMENT
+17b8992f4042        2 minutes ago       /bin/sh -c #(nop)  CMD ["npm" "start"]          0B                  
+7f9d75583e0f        2 minutes ago       /bin/sh -c #(nop)  USER node                    0B                  
+8b4263eee3f0        2 minutes ago       /bin/sh -c npm install && chown -R node:node…   33MB                
+e54de638131a        2 minutes ago       /bin/sh -c #(nop) WORKDIR /home/node/app        0B                  
+e824fc607e8a        2 minutes ago       /bin/sh -c #(nop) COPY dir:bbe0e16acab151201…   536kB               
+80bfa1cd30c1        2 minutes ago       /bin/sh -c #(nop)  ENV FRONT_URL=http://loca…   0B                  
+49e2fdb3aba7        2 minutes ago       /bin/sh -c #(nop)  EXPOSE 8000                  0B                  
+057fa4cc38c2        35 hours ago        /bin/sh -c #(nop)  CMD ["node"]                 0B                  
+<missing>           35 hours ago        /bin/sh -c #(nop)  ENTRYPOINT ["docker-entry…   0B                  
+<missing>           35 hours ago        /bin/sh -c #(nop) COPY file:238737301d473041…   116B                
+<missing>           35 hours ago        /bin/sh -c apk add --no-cache --virtual .bui…   7.62MB              
+<missing>           35 hours ago        /bin/sh -c #(nop)  ENV YARN_VERSION=1.22.4      0B                  
+<missing>           35 hours ago        /bin/sh -c addgroup -g 1000 node     && addu…   76.1MB              
+<missing>           35 hours ago        /bin/sh -c #(nop)  ENV NODE_VERSION=12.18.2     0B                  
+<missing>           2 months ago        /bin/sh -c #(nop)  CMD ["/bin/sh"]              0B                  
+<missing>           2 months ago        /bin/sh -c #(nop) ADD file:b91adb67b670d3a6f…   5.61MB
+
+Size with node:12-alpine -> 125MB

@@ -1,8 +1,8 @@
 ## Exercise 2.10
 
 #### Files
-* Dockerfile_back
-* Dockerfile_front
+* Dockerfile.back
+* Dockerfile.front
 * nginx.conf
 * docker-compose.yml
 
