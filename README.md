@@ -93,3 +93,6 @@ Dockerfiles before and after. History output from containers backend and fronten
 
 * Folder Ex-3.6
 Dockerfile for multi-stage build of frontend
+
+* Folder Ex-3.7
+Two dockerfiles (before and after) and a history file of image sizes and procedures
