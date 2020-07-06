@@ -10,6 +10,6 @@ urho_online is an exercise container made for course DevOps with docker. It is a
 Run it from default http-port with
 
 ```bash
-$ docker run -p 80:80 -it deeq/urho_online
+$ docker run -p 8080:80 -it deeq/urho_online
 ```
 and find out about some thoughts of our late beloved president :-)
