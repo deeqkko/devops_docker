@@ -96,3 +96,6 @@ Dockerfile for multi-stage build of frontend
 
 * Folder Ex-3.7
 Two dockerfiles (before and after) and a history file of image sizes and procedures
+
+* Folder Ex-3.8 
+Kubernetes schematic (.drawio and .png)
